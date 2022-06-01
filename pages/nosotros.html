@@ -10,6 +10,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 		<link rel="icon" href="../img/logo.ico">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="../css/estilo.css">
 		<title>Nosotros - Vita con Caffé</title>
 	</head>
@@ -36,7 +37,10 @@
 				<section class="img-arriba">
 					<img src="../img/cafe (5).jpg" alt="Barista haciendo un latte">
 				</section>
-				<div class="text_img-arriba">
+				<div class="text_img-arriba" data-aos="fade-left"
+				data-aos-anchor="#example-anchor"
+				data-aos-offset="500"
+				data-aos-duration="500">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, commodi, id animi voluptate
 						voluptatum
 						itaque explicabo maiores provident voluptates alias doloremque tenetur debitis ex odit deserunt,
@@ -66,7 +70,9 @@
 				<section class="img-abajo">
 					<img src="../img/producto(2).jpg" alt="Granos de caffe">
 				</section>
-				<div class="text_img-abajo">
+				<div class="text_img-abajo" data-aos="fade-right"
+				data-aos-offset="300"
+				data-aos-easing="ease-in-sine">
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit maxime voluptate molestiae,
 						repellat
 						velit rerum placeat deserunt doloribus porro quae vel amet voluptatibus, non itaque alias
@@ -106,6 +112,11 @@
 				<a href="https://www.facebook.com/" class="fb"><i class="fa-brands fa-facebook"></i></a>
 			</div>
 		</footer>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 	</body>
+	
 
 </html>
