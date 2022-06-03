@@ -10,24 +10,30 @@ body{
 
 header{
 	height: 150px;
-	padding: 0 50px;
+	padding: 50 50px;
 	background-color: #795548;
-	display: flex;
+	display: block;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.menu ul li{
-	display: inline-block;
+.navBar-mod{
+	background-color: #795548;
 }
-.menu a {
-    padding: 0 10px;
-}
-
-.logo-img{
+.nav-mod img{
 	height: 150px;
 }
-
+.link-mod{
+		display: block;
+		padding: 0.5rem 1rem;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		text-decoration: none;
+		transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.link-mod:hover{
+	color: black;
+}
 
 
 
@@ -94,13 +100,16 @@ header{
     width: 100%;
 }
 .img-arriba{
-	padding: 30px;
-	margin: 30px;
-	width: 30%;
+	padding: 50px;
+	width: 50%;
+    margin: 4% 0% 5% 2%;
+	height: 50px;
 }
 
 .text_img-arriba{
-    margin: 100px;
+    width: 50%;
+    justify-items: center;
+    margin: 8% 7% 5% 3%;
 }
 
 .abajo{
@@ -109,13 +118,15 @@ header{
 	justify-content: flex-end;
 }
 .img-abajo{
-	margin: 5% 20% 5% 2%;
-	width: 20%;
+	margin: 6% 20% 5% 2%;
+	width: 25%;
 	height: 50px;
+	padding: 20px;
 
 }
 .text_img-abajo{
 	margin: 100px;
+	width: 50%;
 	align-content: center;
 }
 
@@ -169,7 +180,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
 	text-align: center;
-	margin: 20px;
+	margin: 35px;
 	
 }
 
@@ -179,7 +190,7 @@ h2{
     font-size: 2.5rem;
 	color:#795548;
 	text-align: center;
-	margin: 20px;
+	margin: 35px;
 }
 
 p{
@@ -257,8 +268,10 @@ footer {
 	.img-cafeteria{
 		display: flex;
 		flex-direction: column;
-		margin: 10% 5% 5% 5%;
-        width: 70%;
+		margin: 5% 5% 5% 0%;
+        width: 100%;
+		height: 100%;
+		
 	}
 	.text-img{
 		margin: 5% 10% 5% 10%;
@@ -283,11 +296,11 @@ footer {
 	.img-arriba{
 		display: flex;
 		flex-direction: column;
-		margin: 5% 5% 5% 1%;
-        width: 80%;
+		margin: 10% 5% 5% 0%;
+        width: 100%;
 	}
 	.text_img-arriba{
-		margin: 5% 10% 5% 10%;
+		margin: 50% 10% 5% 8%;
         text-align: center;
         width: 80%;
 	}
@@ -299,14 +312,13 @@ footer {
 	.img-abajo{
 		display: flex;
 		flex-direction: column;
-		margin: 20% 5% 5% 10%;
-        width: 80%;
+		margin: 10% 5% 5% 0%;
+        width: 100%;
 	}
 	.text_img-abajo{
-		padding:50px;
-		margin: 50% 10% 5% 10%;
+		margin: 70% 10% 5% 8%;
         text-align: center;
-        width: 60%;
+        width: 80%;
 	}
 
 
@@ -328,4 +340,10 @@ footer {
 		justify-self: center;
 	}
 	
+}
+
+@media(max-width: 360px){
+	.nav-mod img{
+		height: 100px;
+	}
 }
