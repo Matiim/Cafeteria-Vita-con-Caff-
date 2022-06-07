@@ -44,50 +44,59 @@
 			</nav>
 		</header>
 
-		<section>
+		<div class="cont"> 
 			<h1>Contacto</h1>
-		</section>
+		</div>
 
-		<section>
+		<div class="img-cont">
 			<img src="../img/cafe (2).jpg" alt="gente en una cafeteria">
-		</section>
+		</div>
 
-		<section>
-			<h2>Contactate con nosotros</h2>
-		</section>
-		
-		<section>
-			<p>
-				Ponte en contacto con nosotros para cualquier duda, queja o sugerencia y te atenderemos lo antes
-				posible.
-				Puedes pedir artículos de interés, mandarnos información sobre tu proyecto cafetero, o colaborar con
-				nosotros de otras formas.
-				Indica el motivo de tu correo, tu nombre y una dirección e-mail para poder responderte.
-				Puedes usar el formulario de abajo o cualquiera de nuestras redes sociales.
-			</p>
-		</section>
+		<main class="main">
+			<div id="contacto">
+				<h2>Contactate con nosotros</h2>
+				<p>En Grind House estamos muy contentos de poder ayudarte.<br>
+					Seleccioná el motivo de tu consulta y en breve nos estaremos comunicando con vos.</p>
+			</div>
+			<div class="formulario">
+				<form action="#" method="post">
+					<div class="form-row">
+						<div class="col">
+							<input type="text" class="form-control" placeholder="Nombre">
+						</div>
+						<div class="col">
+							<input type="text" class="form-control" placeholder="Apellido">
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Consulta"></textarea>
+					</div>
 
-		<section>
-			<article>
-				<div class="formulario">
-					<form>
-						<div>
-							<input type="text" placeholder="Nombre">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+						Enviar
+					</button>
+	
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									¡Tu mensaje ha sido enviado!<br> Te responderemos dentro de las 24hs.
+								</div>
+							</div>
 						</div>
-						<div>
-							<input type="text" placeholder="Apellido">
-						</div>
-						<div>
-							<input type="email" placeholder="Email" name="email">
-						</div>
-						<textarea placeholder="Consulta"></textarea>
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-							Enviar
-						</button>
-					</form>
-				</div>
-			</article>
-		</section>
+					</div>
+				</form>
+			</div>
+		</main>
 
 
 		<footer>
