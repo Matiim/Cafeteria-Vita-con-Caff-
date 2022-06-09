@@ -33,7 +33,7 @@ header{
 		transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 .link-mod:hover{
-	color: black;
+	color: #a55c1b;
 }
 
 
@@ -81,14 +81,9 @@ header{
 	padding-top: 40px;
     width: 33%;
     height: 100%;
-	transition: all 1s;
+
 }
 
-.galeria img:hover{
-	transform: scale(1.2);
-	margin: auto;
-	
-}
 
 
 
