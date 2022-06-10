@@ -1,0 +1,19 @@
+{
+  "name": "carpeta-root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matiim/Cafeteria-Vita-con-Caff-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matiim/Cafeteria-Vita-con-Caff-/issues"
+  },
+  "homepage": "https://github.com/Matiim/Cafeteria-Vita-con-Caff-#readme"
+}

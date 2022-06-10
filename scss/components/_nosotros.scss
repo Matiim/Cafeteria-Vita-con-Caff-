@@ -1,0 +1,37 @@
+.img{
+	display: $dy;
+    flex-direction: row;
+    justify-content: space-between;
+	align-content: center;
+    width: nth($width, 3 );
+}
+.img-arriba{
+	padding: nth($padding, 2 );
+	width: nth($width, 2 );
+    margin: 4% 0% 5% 2%;
+	height: 50px;
+}
+
+.text_img-arriba{
+    width: nth($width, 2 );
+    justify-items: center;
+    margin: 8% 7% 5% 3%;
+}
+
+.abajo{
+	display: $dy;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+.img-abajo{
+	margin: 6% 20% 5% 2%;
+	width: nth($width, 1 );
+	height: 50px;
+	padding: nth($padding, 1 );
+
+}
+.text_img-abajo{
+	margin: 100px;
+	width: nth($width, 2 );
+	align-content: center;
+}
