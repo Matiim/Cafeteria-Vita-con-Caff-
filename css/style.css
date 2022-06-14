@@ -54,6 +54,12 @@ header {
   align-items: center;
 }
 
+.navb{
+	flex-basis: 100%;
+    flex-grow: 0 ;
+    align-items: center;
+}
+
 .navBar-mod {
   background-color: #a55c1b;
   background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);

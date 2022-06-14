@@ -21,6 +21,11 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
+.navb{
+	flex-basis: 100%;
+    flex-grow: 0 ;
+    align-items: center;
+}
 
 .navBar-mod{
 	background-color: #a55c1b;
