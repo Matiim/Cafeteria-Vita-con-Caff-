@@ -98,16 +98,34 @@ header{
 
 /* HTML UBICACION  */
 
-.img-ubi{
-	height: 40rem;
-	padding: 10px 0 10px 0;
-	margin: 10px 0px 10px 0px;
+#sucursales h2 {
+    text-align: center;
+    margin: 6rem 1.5rem 4rem 1.5rem;
 }
 
-.maps{
-	padding: 100px 250px;
-	margin: 50px;
-	height: 35rem;
+#sucursales h3 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#sucursales p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#sucursales {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.card-deck {
+    margin: 5rem 5% 5rem 5%;
+}
+
+.card{
+	padding: 60px;
+	margin: 20px;
 }
 
 
@@ -371,7 +389,10 @@ footer {
 	.redes-footer{
 		justify-self: center;
 	}
-	
+	.card{
+		padding: 10px;
+		margin: 20px;
+	}
 }
 
 @media(max-width: 360px){
