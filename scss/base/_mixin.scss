@@ -1,0 +1,5 @@
+@mixin display ($dy){
+	display: $dy;
+	flex-direction: column;
+	
+}

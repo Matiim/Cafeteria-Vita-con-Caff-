@@ -1,6 +1,82 @@
-.img {
+.img, .galeria, .cafeteria-img-text {
   display: flex;
   flex-direction: row;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+header {
+  height: 150px;
+  padding: 50 50px;
+  background-color: #795548;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navb {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.navBar-mod {
+  background-color: #a55c1b;
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+}
+
+.nav-mod img {
+  height: 150px;
+}
+
+.link-mod {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.link-mod:hover {
+  color: black;
+}
+
+.cafeteria-img-text {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text-img {
+  width: 50%;
+  justify-items: center;
+  margin: 8% 7% 5% 3%;
+}
+
+.text-medio {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+.img-cafeteria {
+  padding: 50px;
+  width: 70%;
+  margin-left: 4%;
+}
+
+.galeria img {
+  margin: 2px;
+  padding-top: 40px;
+  width: 33%;
+  height: 100%;
+}
+
+.img {
   justify-content: space-between;
   align-content: center;
   width: 100%;
@@ -38,108 +114,22 @@
   align-content: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #FFFFFF;
-}
-
-/* logo y header */
-header {
-  height: 150px;
-  padding: 50 50px;
-  background-color: #795548;
-  display: block;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navb {
-  flex-basis: 100%;
-  flex-grow: 0;
-  align-items: center;
-}
-
-.navBar-mod {
-  background-color: #a55c1b;
-  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
-}
-
-.nav-mod img {
-  height: 150px;
-}
-
-.link-mod {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-}
-
-.link-mod:hover {
-  color: #a55c1b;
-}
-
-/* HTML INDEX  */
-.cafeteria-img-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#sucursales {
   width: 100%;
+  margin-bottom: 10rem;
 }
-
-.text-img {
-  width: 50%;
-  justify-items: center;
-  margin: 8% 7% 5% 3%;
-}
-
-.text-medio {
-  text-align: center;
-  padding: 20px;
-  margin: 30px;
-}
-
-.img-cafeteria {
-  padding: 50px;
-  width: 70%;
-  margin-left: 4%;
-}
-
-.galeria {
-  display: flex;
-  flex-direction: row;
-}
-
-.galeria img {
-  margin: 2px;
-  padding-top: 40px;
-  width: 33%;
-  height: 100%;
-}
-
-/* HTML UBICACION  */
-#sucursales h2 {
-  text-align: center;
-  margin: 6rem 1.5rem 4rem 1.5rem;
-}
-
-#sucursales h3 {
-  text-align: center;
-  margin: 1rem;
-}
-
 #sucursales p {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-
-#sucursales {
-  width: 100%;
-  margin-bottom: 10rem;
+#sucursales h2 {
+  text-align: center;
+  margin: 6rem 1.5rem 4rem 1.5rem;
+}
+#sucursales h3 {
+  text-align: center;
+  margin: 1rem;
 }
 
 .card-deck {
@@ -151,7 +141,6 @@ header {
   margin: 20px;
 }
 
-/* HTML CONTACTO  */
 .main {
   padding-bottom: 60px;
   margin: 5px;
@@ -169,12 +158,10 @@ header {
 #contacto {
   margin: 6rem 10% 0rem 10%;
 }
-
 #contacto h1 {
   text-align: center;
   margin: 1rem;
 }
-
 #contacto p {
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
@@ -186,28 +173,24 @@ header {
   flex-direction: row;
   justify-content: center;
 }
-
 .formulario form {
   width: 60%;
   margin: 2rem 20%;
 }
-
 .formulario form button {
   background-color: #b39975;
   border: none;
   transition: all 2s;
+}
+.formulario form button:hover {
+  background-color: black;
+  transform: scale(1.2);
 }
 
 .btn {
   margin-top: 1rem;
 }
 
-.formulario form button:hover {
-  background-color: black;
-  transform: scale(1.2);
-}
-
-/* ENLACES Y TITULOS */
 a {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -228,7 +211,7 @@ h2 {
   font-size: 2.5rem;
   color: #795548;
   text-align: center;
-  margin: 35px;
+  margin: 40px;
 }
 
 p {
@@ -236,7 +219,6 @@ p {
   font-size: 1.1rem;
 }
 
-/*  FOOTER  */
 footer {
   background-color: #0c0c0c;
   display: grid;
@@ -256,7 +238,6 @@ footer {
   width: 13rem;
   height: 80px;
 }
-
 .redes-footer p {
   color: #B5966A;
   font-family: "Poppins", sans-serif;
@@ -264,26 +245,44 @@ footer {
   font-size: 17px;
   text-align: center;
 }
-
 .redes-footer a i {
   font-size: 34px;
   height: 80px;
   width: 60px;
 }
 
-/* RESPONSIVE  */
-@media (max-width: 768px) {
-  #portada {
+@media (max-width: 1100px) {
+  .img {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
-  .menu {
+  .img-arriba {
     display: flex;
     flex-direction: column;
+    margin: 5% 5% 5% 0%;
+    width: 100%;
   }
-  #text-inicial {
+  .text_img-arriba {
+    margin: 65% 10% 1% 8%;
+    text-align: center;
+    width: 80%;
+  }
+  .abajo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .img-abajo {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5% 5% 0%;
+    width: 100%;
+  }
+  .text_img-abajo {
+    margin: 70% 10% 5% 8%;
+    text-align: center;
+    width: 80%;
   }
   .cafeteria-img-text {
     display: flex;
@@ -301,6 +300,20 @@ footer {
     margin: 5% 10% 5% 10%;
     text-align: center;
     width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  #portada {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  #text-inicial {
+    display: flex;
+    flex-direction: column;
   }
   .galeria {
     display: none;
@@ -321,23 +334,7 @@ footer {
     width: 100%;
   }
   .text_img-arriba {
-    margin: 50% 10% 5% 8%;
-    text-align: center;
-    width: 80%;
-  }
-  .abajo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .img-abajo {
-    display: flex;
-    flex-direction: column;
-    margin: 10% 5% 5% 0%;
-    width: 100%;
-  }
-  .text_img-abajo {
-    margin: 70% 10% 5% 8%;
+    margin: 65% 10% 5% 8%;
     text-align: center;
     width: 80%;
   }
@@ -365,10 +362,8 @@ footer {
     padding: 10px;
     margin: 20px;
   }
-}
-@media (max-width: 360px) {
   .nav-mod img {
-    height: 100px;
+    height: 150px;
   }
 }
 

@@ -1,0 +1,39 @@
+.cafeteria-img-text{
+	@extend %display;
+    justify-content: space-between;
+    width: 100%;
+	
+}
+
+.text-img{
+	width: 50%;
+    justify-items: center;
+    margin: 8% 7% 5% 3%;
+	
+}
+
+
+.text-medio{
+	text-align: center;
+	padding: 20px;
+	margin: 30px;
+}
+
+.img-cafeteria{
+	padding: 50px;
+	width: 70%;
+    margin-left: 4%;
+	
+		
+}
+
+.galeria{
+	@extend %display;
+	
+	img {
+		margin: 2px;
+		padding-top: 40px;
+		width: 33%;
+		height: 100%;
+	}
+}
